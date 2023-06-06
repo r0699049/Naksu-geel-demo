@@ -48,7 +48,6 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
-
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -2712,6 +2711,19 @@ section {
 
 #about .about-trainingen{
   padding-right: 3rem;
+}
+
+p.instagram{
+  color: #696969;
+}
+
+a.instagram_link {
+  color: #222;
+  font-size: 18.5px!important;
+  font-weight: 500;
+  :hover{
+    color: var(--color-secondary);
+  }
 }
 
 @media only screen and (max-width: 1400px) {
